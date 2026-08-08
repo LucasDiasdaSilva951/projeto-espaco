@@ -52,7 +52,7 @@ header > div > p::after {
     padding: 9px;
 }
 header > nav {
-    background-image: url('imagens/espaçoimg1.jpg');
+    background-image: url('imagens/espaçoimg2.jpg');
     background-attachment: fixed;
     background-size: cover;  
     height: 50px;
