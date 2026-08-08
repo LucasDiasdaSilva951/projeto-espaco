@@ -78,7 +78,7 @@ header > nav > ul > li > a {
 header > nav > ul > li > a:hover {
     padding: 6px;
     background-color: var(--cor3);
-    border-bottom: 2px solid var(--cor3);
+    border-bottom: 2px solid var(--cor5);
     text-decoration: underline;
 }
 main {
