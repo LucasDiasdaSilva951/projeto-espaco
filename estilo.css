@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url(fontes/LeagueSpartan-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fontes/Montserrat-VariableFont_wght.ttf);
+}
+:root {
+    --cor1: #FFFFFF;
+    --cor2: #9448BA;
+    --cor3: #34354d;
+    --cor4: #e7ceff;
+    --cor5: #18302f;
+    --cor6: #00008b;
+
+    --fontetitulo: 'LeagueSpartan';
+    --fontepadrão: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url('imagens/espaçosideral.jpg');
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header > div {
+    text-align: center;
+    background-image: url('imagens/espaçoimg1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    border: 5px solid var(--cor6);
+    box-shadow: 6px 6px 13px 0px black;
+}
+header > div > p {
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 2.5em;
+    color: var(--cor1);
+    font: bolder 4em var(--fontetitulo);
+    text-shadow: 1.5px 1.5px 0px black;
+}
+header > div > p::before {
+    content: '⚝';
+    padding: 9px;
+}
+header > div > p::after {
+    content: '⚝';
+    padding: 9px;
+}
+header > nav {
+    background-image: url('imagens/espaçoimg2.jpg');
+    background-attachment: fixed;
+    background-size: cover;  
+    height: 50px;
+    width: auto;
+    border: 5px solid var(--cor5);
+    box-shadow: 5px 5px 4px 0px black;
+}
+header > nav > ul {
+    list-style-type: none;
+}
+header > nav > ul > li {
+    display: inline;
+}
+header > nav > ul > li > a {
+    padding-inline: 6px;
+    color: var(--cor4);
+    font: bolder 13.5px var(--fontepadrão);
+    text-shadow: 1px 1px 0px black;
+    text-decoration: none;
+}
+header > nav > ul > li > a:hover {
+    padding: 6px;
+    background-color: var(--cor3);
+    border-bottom: 2px solid var(--cor3);
+    text-decoration: underline;
+}
+main {
+    text-align: center;
+}
+main > div > h1 {
+    padding: 2px;
+    font: bolder 4.2em var(--fontetitulo);
+    color: var(--cor1);
+    text-shadow: 1.8px 1.8px 0px black;
+}
+main > div > h3 {
+    font: normal 1.3em var(--fontepadrão);
+    color: var(--cor2);
+    text-shadow: 2.1px 2.1px 0px black;
+}
+main > div > p {
+    font: normal 1.025em var(--fontepadrão);
+    color: var(--cor1);
+    text-shadow: 2.1px 2.1px 0px black;
+}
+main > #botão {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 7px;
+    font: bolder 1.3em var(--fontetitulo);
+    margin: auto;
+    width: 300px;
+    border: 5px solid #c99ac9;
+    outline: 3px solid var(--cor2);
+    box-shadow: 5px 5px 4px 0px black;
+}
+main > #botão > p {
+    font-family: var(--fontepadrão);
+    text-align: center;
+    color: var(--cor2);
+    text-shadow: 1.25px 1.25px 0px black;
+}
+main > #botão > p::before {
+    content: '🚀 ';
+}
+main > #botão:hover {
+    background-color: rgba(44, 41, 41, 0.781);
+}
+.espaçamento {
+    padding: 24px;
+}
+footer {
+    background-color: var(--cor3);
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 4px 0px black;
+    border: 10px solid var(--cor5);
+}
+footer > div > p {
+    padding-inline: 8px;
+    font: 18px var(--fontepadrão);
+    display: inline;    
+    text-shadow: 0.5px 0.5px 0px black;
+}
+footer > div > p.textorodapé > abbr { 
+    text-decoration: none;
+}
+footer > div > p.textorodapé:hover {
+    background-color: rgba(0, 0, 0, 0.527);
+    text-decoration: underline;
+}
+footer > div > p.textorodapé {
+    color: var(--cor1);
+}
+footer > div > p.barra {
+    color: var(--cor4);
+}
+footer > div > p#textofinal {
+    color: var(--cor1);
+}
+footer > div > div#espaçodalinha > p#barraestrelada {
+    color: var(--cor4);
+}
+footer > div > br.pulo {
+    margin: auto;
+}
+footer > div > #linha {
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    border: 5px solid var(--cor2);
+}
+#espaçodalinha {
+    padding: 6px;
+}
