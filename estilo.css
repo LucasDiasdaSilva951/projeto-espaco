@@ -72,6 +72,8 @@ header > nav > ul > li > a {
     font: bolder 13.5px var(--fontepadrão);
     text-shadow: 1px 1px 0px black;
     text-decoration: none;
+    background-color: var(--cor3);
+    padding: 6px;
 }
 header > nav > ul > li > a:hover {
     padding: 6px;
