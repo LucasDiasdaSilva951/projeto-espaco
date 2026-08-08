@@ -52,7 +52,7 @@ header > div > p::after {
     padding: 9px;
 }
 header > nav {
-    background-image: url('imagens/espaçoimg2.jpg');
+    background-image: url('imagens/espaçoimg1.jpg');
     background-attachment: fixed;
     background-size: cover;  
     height: 50px;
@@ -72,7 +72,6 @@ header > nav > ul > li > a {
     font: bolder 13.5px var(--fontepadrão);
     text-shadow: 1px 1px 0px black;
     text-decoration: none;
-    background-color: var(--cor3);
 }
 header > nav > ul > li > a:hover {
     padding: 6px;
