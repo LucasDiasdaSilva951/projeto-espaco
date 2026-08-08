@@ -24,6 +24,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 header > div {
     text-align: center;
